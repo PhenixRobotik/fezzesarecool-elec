@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -184,7 +185,7 @@ Wire Wire Line
 	2300 1100 2200 1100
 Connection ~ 2300 1500
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:MountingHole MK1
 U 1 1 5834FB2E
 P 5650 800
 F 0 "MK1" H 5750 846 50  0000 L CNN
@@ -195,7 +196,7 @@ F 3 "" H 5650 800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole MK3
 U 1 1 5834FBEF
 P 6100 800
 F 0 "MK3" H 6200 846 50  0000 L CNN
@@ -206,7 +207,7 @@ F 3 "" H 6100 800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:MountingHole MK2
 U 1 1 5834FC19
 P 5650 1000
 F 0 "MK2" H 5750 1046 50  0000 L CNN
@@ -217,7 +218,7 @@ F 3 "" H 5650 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole MK4
 U 1 1 5834FC4F
 P 6100 1000
 F 0 "MK4" H 6200 1046 50  0000 L CNN
