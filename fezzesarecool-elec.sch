@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -261,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1500 2300 1800
 Text Label 3700 5850 0    60   ~ 0
-P3V3
+P3V3_HAT
 $Comp
 L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 58E13683
@@ -418,10 +419,8 @@ F 8 "" H -13000 -8050 50  0001 C CNN "SPURL"
 	1    2550 6300
 	1    0    0    1   
 $EndComp
-Text Label 2400 5550 2    60   ~ 0
-P3V3
-Wire Wire Line
-	2100 5550 2400 5550
+Text Label 2100 5550 0    60   ~ 0
+P3V3_HAT
 Wire Wire Line
 	2100 5550 2100 5650
 $Comp
@@ -528,10 +527,8 @@ F 3 "" H 2100 6350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2100 6250 2100 6350
-Text Label 2800 6600 2    60   ~ 0
-P3V3
-Wire Wire Line
-	2800 6600 2550 6600
+Text Label 2550 6600 0    60   ~ 0
+P3V3_HAT
 Wire Wire Line
 	2550 6600 2550 6450
 Wire Wire Line

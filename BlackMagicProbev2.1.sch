@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -767,107 +768,6 @@ Wire Wire Line
 Text Label 6750 750  2    50   ~ 0
 xTPWR
 $Comp
-L Connector_Generic:Conn_01x01 P11
-U 1 1 5B5C32FF
-P 10500 800
-F 0 "P11" H 10580 796 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 751 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 800 50  0001 C CNN
-F 3 "~" H 10500 800 50  0001 C CNN
-	1    10500 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P12
-U 1 1 5B5C3794
-P 10500 900
-F 0 "P12" H 10580 896 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 851 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 900 50  0001 C CNN
-F 3 "~" H 10500 900 50  0001 C CNN
-	1    10500 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P13
-U 1 1 5B5C37E2
-P 10500 1000
-F 0 "P13" H 10580 996 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 951 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1000 50  0001 C CNN
-F 3 "~" H 10500 1000 50  0001 C CNN
-	1    10500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P14
-U 1 1 5B5C382E
-P 10500 1100
-F 0 "P14" H 10580 1096 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1051 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1100 50  0001 C CNN
-F 3 "~" H 10500 1100 50  0001 C CNN
-	1    10500 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P15
-U 1 1 5B5C38FB
-P 10500 1200
-F 0 "P15" H 10580 1196 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1151 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1200 50  0001 C CNN
-F 3 "~" H 10500 1200 50  0001 C CNN
-	1    10500 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P16
-U 1 1 5B5C3901
-P 10500 1300
-F 0 "P16" H 10580 1296 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1251 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1300 50  0001 C CNN
-F 3 "~" H 10500 1300 50  0001 C CNN
-	1    10500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P17
-U 1 1 5B5C3907
-P 10500 1400
-F 0 "P17" H 10580 1396 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1351 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1400 50  0001 C CNN
-F 3 "~" H 10500 1400 50  0001 C CNN
-	1    10500 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P18
-U 1 1 5B5C390D
-P 10500 1500
-F 0 "P18" H 10580 1496 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1451 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1500 50  0001 C CNN
-F 3 "~" H 10500 1500 50  0001 C CNN
-	1    10500 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 P19
-U 1 1 5B5C4105
-P 10500 1600
-F 0 "P19" H 10580 1596 50  0000 L CNN
-F 1 "Conn_01x01" H 10580 1551 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 1600 50  0001 C CNN
-F 3 "~" H 10500 1600 50  0001 C CNN
-	1    10500 1600
-	1    0    0    -1  
-$EndComp
-Text Notes 10850 1450 1    50   ~ 0
-Pogopin pads
-$Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J8
 U 1 1 5B5C45BF
 P 8600 2650
@@ -1006,33 +906,6 @@ Text Label 9150 2850 0    50   ~ 0
 TDI
 Text Label 9150 2050 0    50   ~ 0
 TPWR
-Text Label 10300 800  2    50   ~ 0
-TPWR
-Text Label 10300 900  2    50   ~ 0
-RST
-Text Label 10300 1000 2    50   ~ 0
-TDI
-Text Label 10300 1100 2    50   ~ 0
-TDO
-Text Label 10300 1200 2    50   ~ 0
-TCK
-Text Label 10300 1300 2    50   ~ 0
-TMS
-Text Label 10300 1400 2    50   ~ 0
-TXD
-Text Label 10300 1500 2    50   ~ 0
-RXD
-$Comp
-L power:GND #PWR0134
-U 1 1 5B5CBD9B
-P 10300 1600
-F 0 "#PWR0134" H 10300 1350 50  0001 C CNN
-F 1 "GND" H 10305 1427 50  0000 C CNN
-F 2 "" H 10300 1600 50  0001 C CNN
-F 3 "" H 10300 1600 50  0001 C CNN
-	1    10300 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:FDG1024NZ Q2
 U 1 1 5B5B4C77
@@ -1130,7 +1003,7 @@ U 1 1 5B6C4E2C
 P 10550 3200
 F 0 "J10" H 10630 3192 50  0000 L CNN
 F 1 "Conn_01x04" H 10630 3101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10550 3200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 10550 3200 50  0001 C CNN
 F 3 "~" H 10550 3200 50  0001 C CNN
 	1    10550 3200
 	1    0    0    -1  
@@ -1186,28 +1059,6 @@ Wire Wire Line
 	10150 3200 10350 3200
 Wire Wire Line
 	10350 3300 10150 3300
-$Comp
-L MCU_ST_STM32F1:STM32F103CBUx U3
-U 1 1 5B6CE21A
-P 2900 5950
-F 0 "U3" H 2900 6900 50  0000 C CNN
-F 1 "STM32F103CBUx" H 3000 7000 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 2300 4550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2900 5950 50  0001 C CNN
-	1    2900 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 7450 2800 7450
-Wire Wire Line
-	2800 7450 2900 7450
-Connection ~ 2800 7450
-Wire Wire Line
-	2900 7450 3000 7450
-Connection ~ 2900 7450
-Wire Wire Line
-	3100 7450 3000 7450
-Connection ~ 3000 7450
 $Comp
 L power:GND #PWR0137
 U 1 1 5B6D294E
@@ -1360,21 +1211,6 @@ F 3 "" H 2500 4450 50  0001 C CNN
 	1    2500 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 4450 3000 4450
-Connection ~ 3100 4450
-Connection ~ 3000 4450
-Wire Wire Line
-	2900 4450 3000 4450
-Connection ~ 2900 4450
-Wire Wire Line
-	2900 4450 2800 4450
-Connection ~ 2800 4450
-Wire Wire Line
-	2800 4450 2700 4450
-Wire Wire Line
-	2700 4450 2500 4450
-Connection ~ 2700 4450
 $Comp
 L power:GND #PWR0140
 U 1 1 5B6FFDA1
@@ -1396,17 +1232,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1900 4650 50  
 F 3 "~" H 1900 4650 50  0001 C CNN
 	1    1900 4650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 5B706B11
-P 1600 4650
-F 0 "J2" H 1600 4550 50  0000 C CNN
-F 1 "Conn_01x01" H 1900 4650 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1600 4650 50  0001 C CNN
-F 3 "~" H 1600 4650 50  0001 C CNN
-	1    1600 4650
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Crystal_GND2 Y1
@@ -1492,7 +1317,6 @@ Text Label 2200 4650 2    50   ~ 0
 ~RST
 Wire Wire Line
 	2000 4650 2200 4650
-Connection ~ 1800 4650
 $Comp
 L power:GND #PWR0142
 U 1 1 5B75B97B
@@ -1579,19 +1403,6 @@ F 2 "" H 2200 6150 50  0001 C CNN
 F 3 "" H 2200 6150 50  0001 C CNN
 	1    2200 6150
 	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2200 6050 1750 6050
-$Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 5B77FEE5
-P 1550 6050
-F 0 "J1" H 1650 6100 50  0000 C CNN
-F 1 "Conn_01x01" H 1850 6000 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1550 6050 50  0001 C CNN
-F 3 "~" H 1550 6050 50  0001 C CNN
-	1    1550 6050
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R2
@@ -1757,54 +1568,6 @@ Wire Wire Line
 	4650 6400 5000 6400
 Connection ~ 5000 6400
 $Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 5B7DA6DF
-P 4000 7050
-F 0 "J3" H 4080 7046 50  0000 L CNN
-F 1 "Conn_01x01" H 4080 7001 50  0001 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4000 7050 50  0001 C CNN
-F 3 "~" H 4000 7050 50  0001 C CNN
-	1    4000 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5B7DA787
-P 4000 7150
-F 0 "J4" H 4080 7146 50  0000 L CNN
-F 1 "Conn_01x01" H 4080 7101 50  0001 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4000 7150 50  0001 C CNN
-F 3 "~" H 4000 7150 50  0001 C CNN
-	1    4000 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5B7DA825
-P 4000 7250
-F 0 "J5" H 4080 7246 50  0000 L CNN
-F 1 "Conn_01x01" H 4080 7201 50  0001 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 4000 7250 50  0001 C CNN
-F 3 "~" H 4000 7250 50  0001 C CNN
-	1    4000 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 7050 3800 7050
-Wire Wire Line
-	3800 7150 3500 7150
-$Comp
-L power:GND #PWR0152
-U 1 1 5B7E6A43
-P 3800 7250
-F 0 "#PWR0152" H 3800 7000 50  0001 C CNN
-F 1 "GND" H 3805 7077 50  0000 C CNN
-F 2 "" H 3800 7250 50  0001 C CNN
-F 3 "" H 3800 7250 50  0001 C CNN
-	1    3800 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_B_Micro J7
 U 1 1 5B7E7F2D
 P 6600 6850
@@ -1900,10 +1663,10 @@ Wire Wire Line
 	6300 5700 6300 6650
 Connection ~ 6450 5700
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0156
 U 1 1 5B6E54F1
 P 950 850
-F 0 "#PWR?" H 950 700 50  0001 C CNN
+F 0 "#PWR0156" H 950 700 50  0001 C CNN
 F 1 "+5V" V 965 978 50  0000 L CNN
 F 2 "" H 950 850 50  0001 C CNN
 F 3 "" H 950 850 50  0001 C CNN
@@ -1912,4 +1675,68 @@ F 3 "" H 950 850 50  0001 C CNN
 $EndComp
 Text HLabel 950  850  0    50   Input ~ 0
 5V_IN
+Wire Wire Line
+	2500 4450 2700 4450
+$Comp
+L MCU_ST_STM32F1:STM32F103CBTx U3
+U 1 1 5B6D7F70
+P 2900 5950
+F 0 "U3" H 2900 5950 50  0000 C CNN
+F 1 "STM32F103CBTx" H 2900 6650 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2300 4550 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 2900 5950 50  0001 C CNN
+	1    2900 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7450 2800 7450
+Wire Wire Line
+	2800 7450 2900 7450
+Connection ~ 2800 7450
+Connection ~ 2900 7450
+Wire Wire Line
+	2900 7450 3000 7450
+Wire Wire Line
+	2700 4450 2800 4450
+Connection ~ 2700 4450
+Connection ~ 2800 4450
+Wire Wire Line
+	2800 4450 2900 4450
+Connection ~ 3100 4450
+Connection ~ 2900 4450
+Wire Wire Line
+	2900 4450 3000 4450
+Connection ~ 3000 4450
+Wire Wire Line
+	3000 4450 3100 4450
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5B70A416
+P 1050 4250
+F 0 "J1" V 1016 3962 50  0000 R CNN
+F 1 "Conn_01x05" V 1150 4450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1050 4250 50  0001 C CNN
+F 3 "~" H 1050 4250 50  0001 C CNN
+	1    1050 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5B70AC78
+P 950 4450
+F 0 "#PWR0134" H 950 4200 50  0001 C CNN
+F 1 "GND" V 950 4250 50  0000 C CNN
+F 2 "" H 950 4450 50  0001 C CNN
+F 3 "" H 950 4450 50  0001 C CNN
+	1    950  4450
+	1    0    0    -1  
+$EndComp
+Text Label 850  4450 3    50   ~ 0
+SWDIO
+Text Label 1050 4450 3    50   ~ 0
+SWCLK
+Text Label 1150 4450 3    50   ~ 0
+TRACESWO
+Text Label 1250 4450 3    50   ~ 0
+~RST
 $EndSCHEMATC
