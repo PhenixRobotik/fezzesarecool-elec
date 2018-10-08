@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date "15 nov 2012"
 Rev ""
@@ -185,52 +184,6 @@ Wire Wire Line
 	2300 1100 2200 1100
 Connection ~ 2300 1500
 $Comp
-L Mechanical:MountingHole MK1
-U 1 1 5834FB2E
-P 5650 800
-F 0 "MK1" H 5750 846 50  0000 L CNN
-F 1 "M2.5" H 5750 755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5650 800 60  0001 C CNN
-F 3 "" H 5650 800 60  0001 C CNN
-	1    5650 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MK3
-U 1 1 5834FBEF
-P 6100 800
-F 0 "MK3" H 6200 846 50  0000 L CNN
-F 1 "M2.5" H 6200 755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6100 800 60  0001 C CNN
-F 3 "" H 6100 800 60  0001 C CNN
-	1    6100 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MK2
-U 1 1 5834FC19
-P 5650 1000
-F 0 "MK2" H 5750 1046 50  0000 L CNN
-F 1 "M2.5" H 5750 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5650 1000 60  0001 C CNN
-F 3 "" H 5650 1000 60  0001 C CNN
-	1    5650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MK4
-U 1 1 5834FC4F
-P 6100 1000
-F 0 "MK4" H 6200 1046 50  0000 L CNN
-F 1 "M2.5" H 6200 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 6100 1000 60  0001 C CNN
-F 3 "" H 6100 1000 60  0001 C CNN
-	1    6100 1000
-	1    0    0    -1  
-$EndComp
-Text Notes 5650 650  0    50   ~ 0
-Mounting Holes
-$Comp
 L Connector_Generic:Conn_02x20_Odd_Even P1
 U 1 1 59AD464A
 P 1900 1800
@@ -263,95 +216,6 @@ Wire Wire Line
 	2300 1500 2300 1800
 Text Label 3700 5850 0    60   ~ 0
 P3V3_HAT
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 58E13683
-P 4550 900
-F 0 "J6" H 4600 850 50  0000 C CNN
-F 1 "CONN_02X02" H 4600 750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4550 -300 50  0001 C CNN
-F 3 "" H 4550 -300 50  0000 C CNN
-	1    4550 900 
-	1    0    0    -1  
-$EndComp
-Text Label 4350 900  2    60   ~ 0
-P3V3
-Text Label 4350 1000 2    60   ~ 0
-P5V
-Text Label 4850 900  0    60   ~ 0
-P3V3_HAT
-Text Label 4850 1000 0    60   ~ 0
-P5V_HAT
-Text Notes 3950 1450 0    60   ~ 0
-FLEXIBLE POWER SELECTION
-Text Label 5000 1750 0    60   ~ 0
-P5V_HAT
-Text Label 4200 1750 2    60   ~ 0
-P5V
-Text Notes 3850 2950 1    118  ~ 24
-5V Powered HAT Protection
-$Comp
-L Device:R R23
-U 1 1 58E15896
-P 4200 2350
-F 0 "R23" V 4280 2350 50  0000 C CNN
-F 1 "22" V 4200 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 2350 50  0001 C CNN
-F 3 "" H 4200 2350 50  0001 C CNN
-F 4 "Yageo" H -11350 -12000 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -11350 -12000 50  0001 C CNN "MPN"
-F 6 "Digikey" H -11350 -12000 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -11350 -12000 50  0001 C CNN "SPN"
-F 8 "" H -11350 -12000 50  0001 C CNN "SPURL"
-	1    4200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R24
-U 1 1 58E158A1
-P 5000 2350
-F 0 "R24" V 5080 2350 50  0000 C CNN
-F 1 "22" V 5000 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 2350 50  0001 C CNN
-F 3 "" H 5000 2350 50  0001 C CNN
-F 4 "Yageo" H -10550 -12200 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -10550 -12200 50  0001 C CNN "MPN"
-F 6 "Digikey" H -10550 -12200 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -10550 -12200 50  0001 C CNN "SPN"
-F 8 "" H -10550 -12200 50  0001 C CNN "SPURL"
-	1    5000 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 58E15A41
-P 4200 2500
-F 0 "#PWR01" H 4200 2250 50  0001 C CNN
-F 1 "GND" H 4200 2350 50  0000 C CNN
-F 2 "" H 4200 2500 50  0000 C CNN
-F 3 "" H 4200 2500 50  0000 C CNN
-	1    4200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 58E15A9E
-P 5000 2500
-F 0 "#PWR0101" H 5000 2250 50  0001 C CNN
-F 1 "GND" H 5000 2350 50  0000 C CNN
-F 2 "" H 5000 2500 50  0000 C CNN
-F 3 "" H 5000 2500 50  0000 C CNN
-	1    5000 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2150 5000 2150
-Wire Wire Line
-	4200 2200 4500 2200
-Connection ~ 4200 2200
-Wire Wire Line
-	4700 2200 4700 1950
-Connection ~ 4500 2200
 $Comp
 L Device:R R6
 U 1 1 58E17715
@@ -457,38 +321,6 @@ $EndComp
 Text Notes 3250 5350 0    60   ~ 0
 EEPROM WRITE ENABLE
 $Comp
-L Device:R R7
-U 1 1 58E22085
-P 4600 750
-F 0 "R7" V 4500 750 50  0000 C CNN
-F 1 "DNP" V 4600 750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 750 50  0001 C CNN
-F 3 "" H 4600 750 50  0001 C CNN
-F 4 "Yageo" H -10950 -13600 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -10950 -13600 50  0001 C CNN "MPN"
-F 6 "Digikey" H -10950 -13600 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -10950 -13600 50  0001 C CNN "SPN"
-F 8 "" H -10950 -13600 50  0001 C CNN "SPURL"
-	1    4600 750 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 58E2218F
-P 4600 1150
-F 0 "R9" V 4680 1150 50  0000 C CNN
-F 1 "DNP" V 4600 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 1150 50  0001 C CNN
-F 3 "" H 4600 1150 50  0001 C CNN
-F 4 "Yageo" H -10950 -13200 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -10950 -13200 50  0001 C CNN "MPN"
-F 6 "Digikey" H -10950 -13200 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -10950 -13200 50  0001 C CNN "SPN"
-F 8 "" H -10950 -13200 50  0001 C CNN "SPURL"
-	1    4600 1150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R11
 U 1 1 58E22900
 P 2800 6150
@@ -508,8 +340,6 @@ Text Notes 1000 7000 0    118  ~ 24
 Pullup Resistors
 Text Notes 2000 4800 0    118  ~ 24
 HAT EEPROM
-Text Notes 3650 350  0    60   ~ 0
-HAT spec indicates to NEVER\npower the 3.3V pins on the Raspberry Pi \nfrom the HAT header. Only connect the 3.3V\npower from the Pi if the HAT does not have\n3.3V on board.\n\nIF you are designing a board that could\neither be powered by the Pi or from the HAT\nthe jumpers here can be used.\n\nIn most cases, either design the HAT \nto provide the 5V to the Pi and use the\nprotection circuit above OR power the\nHAT from the Pi and directly connect\nthe P3V3 and P5V to the P3V3_HAT and P5V_HAT\npins.
 Text Notes 1200 5200 0    60   ~ 0
 The HAT spec requires this EEPROM with system information\nto be in place in order to be called a HAT. It should be set up as write\nprotected (WP pin held high), so it may be desirable to either put a \njumper as shown to enable writing, or to hook up a spare IO pin to do so.
 Text Notes 850  7250 0    60   ~ 0
@@ -537,50 +367,9 @@ Connection ~ 1400 5850
 Wire Wire Line
 	2950 6200 2950 6150
 Wire Wire Line
-	5000 2150 5000 2200
-Wire Wire Line
-	4500 2200 4700 2200
-Wire Wire Line
 	1400 5950 1400 6050
 Wire Wire Line
 	1400 5850 1700 5850
-$Comp
-L Device:Q_PMOS_DGS Q3
-U 1 1 5B582C9C
-P 4600 1850
-F 0 "Q3" V 4900 1850 50  0000 C CNN
-F 1 "Q_PMOS_DGS" V 4800 1850 50  0000 C CNN
-F 2 "" H 4800 1950 50  0001 C CNN
-F 3 "~" H 4600 1850 50  0001 C CNN
-	1    4600 1850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 1750 4400 1750
-Wire Wire Line
-	4800 1750 5000 1750
-$Comp
-L Transistor_BJT:MMDT5401 Q1
-U 1 1 5B58C076
-P 4300 1950
-F 0 "Q1" H 4490 1904 50  0000 L CNN
-F 1 "MMDT5401" H 4350 2000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4500 2050 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds30169.pdf" H 4300 1950 50  0001 C CNN
-	1    4300 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:MMDT5401 Q1
-U 2 1 5B594A57
-P 4900 1950
-F 0 "Q1" H 5091 1904 50  0000 L CNN
-F 1 "MMDT5401" H 5000 2000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5100 2050 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds30169.pdf" H 4900 1950 50  0001 C CNN
-	2    4900 1950
-	1    0    0    1   
-$EndComp
 $Comp
 L Memory_EEPROM:CAT24C256 U1
 U 1 1 5B59946D
@@ -603,45 +392,6 @@ Text Label 2400 750  0    60   ~ 0
 P5V_HAT
 Text Label 1500 750  2    60   ~ 0
 P3V3_HAT
-Connection ~ 5000 2150
-Wire Wire Line
-	4200 2150 4200 2200
-Wire Wire Line
-	4500 1950 4500 2200
-Wire Wire Line
-	4600 2050 4600 2150
-Wire Wire Line
-	4350 900  4350 750 
-Wire Wire Line
-	4350 750  4450 750 
-Wire Wire Line
-	4750 750  4850 750 
-Wire Wire Line
-	4850 750  4850 900 
-Wire Wire Line
-	4850 1000 4850 1150
-Wire Wire Line
-	4850 1150 4750 1150
-Wire Wire Line
-	4450 1150 4350 1150
-Wire Wire Line
-	4350 1150 4350 1000
-Wire Notes Line
-	3650 3000 5450 3000
-Wire Notes Line
-	5450 3000 5450 500 
-Wire Notes Line
-	5450 500  3650 500 
-Wire Notes Line
-	3650 500  3650 3000
-Wire Notes Line
-	5550 550  6400 550 
-Wire Notes Line
-	6400 550  6400 1100
-Wire Notes Line
-	6400 1100 5550 1100
-Wire Notes Line
-	5550 1100 5550 550 
 Wire Wire Line
 	3700 5950 3700 5850
 Wire Wire Line
@@ -653,12 +403,27 @@ Wire Wire Line
 	2950 6050 2550 6050
 Connection ~ 2550 6050
 $Sheet
-S 7700 1750 1150 800 
-U 5B5B28CC
-F0 "BlackMagicProbev2.1" 50
-F1 "BlackMagicProbev2.1.sch" 50
-F2 "5V_IN" I L 7700 1950 50 
+S 5300 3000 1250 1150
+U 5BBC939D
+F0 "CAN" 50
+F1 "CAN.sch" 50
 $EndSheet
-Text Label 7700 1950 2    50   ~ 0
-P5V
+$Sheet
+S 5300 1800 1250 850 
+U 5BBCFBE4
+F0 "SWD" 50
+F1 "SWD.sch" 50
+$EndSheet
+$Sheet
+S 5300 4400 1250 900 
+U 5BBCFC98
+F0 "Sheet5BBCFC97" 50
+F1 "LED.sch" 50
+$EndSheet
+$Sheet
+S 6850 4400 1050 900 
+U 5BBCFCD3
+F0 "Audio" 50
+F1 "Audio.sch" 50
+$EndSheet
 $EndSCHEMATC
