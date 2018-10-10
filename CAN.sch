@@ -78,12 +78,6 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 6800 2500 50 
 	1    6800 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 2300 5750 2300
-Wire Wire Line
-	5750 2300 5750 2500
-Wire Wire Line
-	5750 2500 5400 2500
 NoConn ~ 6300 2600
 $Comp
 L power:GND #PWR018
@@ -359,48 +353,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 3200 4200 3200
 Connection ~ 3350 3600
-$Comp
-L Device:R R5
-U 1 1 5BBD7681
-P 6000 2400
-F 0 "R5" V 5793 2400 50  0000 C CNN
-F 1 "5k" V 5884 2400 50  0000 C CNN
-F 2 "" V 5930 2400 50  0001 C CNN
-F 3 "~" H 6000 2400 50  0001 C CNN
-	1    6000 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5BBD76F5
-P 5800 2650
-F 0 "R4" H 5870 2696 50  0000 L CNN
-F 1 "10k" H 5870 2605 50  0000 L CNN
-F 2 "" V 5730 2650 50  0001 C CNN
-F 3 "~" H 5800 2650 50  0001 C CNN
-	1    5800 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 2400 5800 2400
-Wire Wire Line
-	6150 2400 6300 2400
-Wire Wire Line
-	5800 2500 5800 2400
-Connection ~ 5800 2400
-Wire Wire Line
-	5800 2400 5850 2400
-$Comp
-L power:GND #PWR015
-U 1 1 5BBD90D6
-P 5800 2800
-F 0 "#PWR015" H 5800 2550 50  0001 C CNN
-F 1 "GND" H 5805 2627 50  0000 C CNN
-F 2 "" H 5800 2800 50  0001 C CNN
-F 3 "" H 5800 2800 50  0001 C CNN
-	1    5800 2800
-	1    0    0    -1  
-$EndComp
 NoConn ~ 5400 3100
 NoConn ~ 5400 3200
 NoConn ~ 5400 3300
@@ -447,4 +399,86 @@ Wire Wire Line
 Connection ~ 5550 3600
 Wire Wire Line
 	5550 3600 5750 3600
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5BBF5593
+P 5850 2500
+F 0 "Q?" V 6193 2500 50  0000 C CNN
+F 1 "BSS138" V 6102 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6050 2425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5850 2500 50  0001 L CNN
+	1    5850 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5650 2400 5600 2400
+Wire Wire Line
+	6050 2400 6150 2400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BBF6A93
+P 5850 2800
+F 0 "#PWR?" H 5850 2650 50  0001 C CNN
+F 1 "+3.3V" H 5865 2973 50  0000 C CNN
+F 2 "" H 5850 2800 50  0001 C CNN
+F 3 "" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2500 5550 2500
+Wire Wire Line
+	5550 2500 5550 2300
+Wire Wire Line
+	5550 2300 6300 2300
+$Comp
+L Device:R R?
+U 1 1 5BBF8308
+P 5600 2600
+F 0 "R?" H 5670 2646 50  0000 L CNN
+F 1 "R" H 5670 2555 50  0000 L CNN
+F 2 "" V 5530 2600 50  0001 C CNN
+F 3 "~" H 5600 2600 50  0001 C CNN
+	1    5600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBF8381
+P 6150 2200
+F 0 "R?" H 6220 2246 50  0000 L CNN
+F 1 "R" H 6220 2155 50  0000 L CNN
+F 2 "" V 6080 2200 50  0001 C CNN
+F 3 "~" H 6150 2200 50  0001 C CNN
+	1    6150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BBF8442
+P 6150 2050
+F 0 "#PWR?" H 6150 1900 50  0001 C CNN
+F 1 "+5V" H 6165 2223 50  0000 C CNN
+F 2 "" H 6150 2050 50  0001 C CNN
+F 3 "" H 6150 2050 50  0001 C CNN
+	1    6150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2350 6150 2400
+Connection ~ 6150 2400
+Wire Wire Line
+	6150 2400 6300 2400
+Wire Wire Line
+	5600 2450 5600 2400
+Connection ~ 5600 2400
+Wire Wire Line
+	5600 2400 5400 2400
+Wire Wire Line
+	5850 2800 5850 2750
+Wire Wire Line
+	5850 2750 5600 2750
+Connection ~ 5850 2750
+Wire Wire Line
+	5850 2750 5850 2700
 $EndSCHEMATC
