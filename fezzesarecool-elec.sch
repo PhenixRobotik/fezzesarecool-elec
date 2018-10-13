@@ -176,6 +176,7 @@ F 0 "P1" H 3100 2917 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 3100 2826 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H -1800 850 50  0001 C CNN
 F 3 "" H -1800 850 50  0001 C CNN
+F 4 "254-6110" H 3050 1800 50  0001 C CNN "RS"
 	1    3050 1800
 	1    0    0    -1  
 $EndComp
@@ -267,7 +268,7 @@ U 1 1 5BBE5BC7
 P 5850 1400
 F 0 "JP1" V 5896 1502 50  0000 L CNN
 F 1 "reset_method" V 5805 1502 50  0000 L CNN
-F 2 "" H 5850 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5850 1400 50  0001 C CNN
 F 3 "~" H 5850 1400 50  0001 C CNN
 	1    5850 1400
 	0    -1   -1   0   
@@ -406,7 +407,7 @@ U 1 1 5BCF15A6
 P 1450 3200
 F 0 "R2" V 1243 3200 50  0000 C CNN
 F 1 "R" V 1334 3200 50  0000 C CNN
-F 2 "" V 1380 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1380 3200 50  0001 C CNN
 F 3 "~" H 1450 3200 50  0001 C CNN
 	1    1450 3200
 	0    1    1    0   
@@ -457,7 +458,7 @@ U 1 1 5BCF582F
 P 800 2150
 F 0 "R1" V 593 2150 50  0000 C CNN
 F 1 "R" V 684 2150 50  0000 C CNN
-F 2 "" V 730 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 730 2150 50  0001 C CNN
 F 3 "~" H 800 2150 50  0001 C CNN
 	1    800  2150
 	-1   0    0    1   
@@ -486,4 +487,37 @@ Wire Wire Line
 	7900 2450 7900 3450
 Wire Wire Line
 	7900 3450 7700 3450
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 5BC37324
+P 7500 900
+F 0 "#LOGO1" H 7500 1175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7500 675 50  0001 C CNN
+F 2 "PhoenixRobotik:Logo_12,7mm" H 7500 900 50  0001 C CNN
+F 3 "~" H 7500 900 50  0001 C CNN
+	1    7500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO2
+U 1 1 5BC37600
+P 8200 900
+F 0 "#LOGO2" H 8200 1175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8200 675 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 8200 900 50  0001 C CNN
+F 3 "~" H 8200 900 50  0001 C CNN
+	1    8200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO3
+U 1 1 5BC37D40
+P 8200 1350
+F 0 "#LOGO3" H 8200 1625 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8200 1125 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 8200 1350 50  0001 C CNN
+F 3 "~" H 8200 1350 50  0001 C CNN
+	1    8200 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
