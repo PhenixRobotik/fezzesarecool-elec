@@ -520,4 +520,13 @@ F 3 "~" H 8200 1350 50  0001 C CNN
 	1    8200 1350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 1700 1000
+NoConn ~ 1700 1100
+NoConn ~ 1700 1200
+NoConn ~ 1700 2200
+NoConn ~ 4400 2800
+NoConn ~ 4400 2700
+NoConn ~ 4400 2200
+NoConn ~ 4400 2100
+NoConn ~ 4400 1600
 $EndSCHEMATC
