@@ -543,4 +543,48 @@ $EndComp
 Connection ~ 2650 1300
 Wire Wire Line
 	2650 1300 2650 1700
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BC53301
+P 9900 3450
+F 0 "H1" H 10000 3496 50  0000 L CNN
+F 1 "MountingHole" H 10000 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3450 50  0001 C CNN
+F 3 "~" H 9900 3450 50  0001 C CNN
+	1    9900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BC53337
+P 9900 3700
+F 0 "H2" H 10000 3746 50  0000 L CNN
+F 1 "MountingHole" H 10000 3655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3700 50  0001 C CNN
+F 3 "~" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5BC53361
+P 9900 3950
+F 0 "H3" H 10000 3996 50  0000 L CNN
+F 1 "MountingHole" H 10000 3905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3950 50  0001 C CNN
+F 3 "~" H 9900 3950 50  0001 C CNN
+	1    9900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5BC53391
+P 9900 4200
+F 0 "H4" H 10000 4246 50  0000 L CNN
+F 1 "MountingHole" H 10000 4155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 4200 50  0001 C CNN
+F 3 "~" H 9900 4200 50  0001 C CNN
+	1    9900 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
