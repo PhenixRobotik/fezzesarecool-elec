@@ -190,4 +190,26 @@ Wire Wire Line
 	6400 3200 6400 2550
 Wire Wire Line
 	6400 2550 6450 2550
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5BCA744A
+P 5150 1500
+F 0 "H1" H 5250 1546 50  0000 L CNN
+F 1 "MountingHole" H 5250 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5150 1500 50  0001 C CNN
+F 3 "~" H 5150 1500 50  0001 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5BCA74B2
+P 5150 1700
+F 0 "H2" H 5250 1746 50  0000 L CNN
+F 1 "MountingHole" H 5250 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5150 1700 50  0001 C CNN
+F 3 "~" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
