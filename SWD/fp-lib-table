@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PhoenixRobotik)(type KiCad)(uri /home/maxime/Bureau/Phenix_Robotik/fezzesarecool-elec/phenix_kicad/modules/PhoenixRobotik.pretty)(options "")(descr ""))
+)
