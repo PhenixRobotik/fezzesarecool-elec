@@ -120,28 +120,6 @@ Wire Wire Line
 	6700 2850 6700 2800
 Wire Wire Line
 	6700 2800 6900 2800
-$Comp
-L PhoenixRobotik:CAN_conn J3
-U 1 1 5BBC9E1A
-P 9050 2600
-F 0 "J3" H 9329 2646 50  0000 L CNN
-F 1 "CAN_conn" H 9329 2555 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 9050 2250 50  0001 C CNN
-F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 9350 2600 50  0001 C CNN
-	1    9050 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PhoenixRobotik:CAN_conn J4
-U 1 1 5BBC9F06
-P 10400 2600
-F 0 "J4" H 10679 2646 50  0000 L CNN
-F 1 "CAN_conn" H 10679 2555 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 10400 2250 50  0001 C CNN
-F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 10700 2600 50  0001 C CNN
-	1    10400 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2500 8550 2500
 Wire Wire Line
@@ -577,4 +555,32 @@ $EndComp
 Connection ~ 10500 2150
 Wire Wire Line
 	10500 2150 10500 2200
+$Comp
+L PhoenixRobotik:CAN_conn J3
+U 1 1 5BCBDF8F
+P 9050 2600
+F 0 "J3" H 9329 2646 50  0000 L CNN
+F 1 "CAN_conn" H 9329 2555 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 9050 2250 50  0001 C CNN
+F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 9350 2600 50  0001 C CNN
+	1    9050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PhoenixRobotik:CAN_conn J4
+U 1 1 5BCBE333
+P 10400 2600
+F 0 "J4" H 10679 2646 50  0000 L CNN
+F 1 "CAN_conn" H 10679 2555 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 10400 2250 50  0001 C CNN
+F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 10700 2600 50  0001 C CNN
+	1    10400 2600
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3600 0    50   ~ 0
+rst
+Text Label 10000 2600 2    50   ~ 0
+rst
+Text Label 8650 2600 2    50   ~ 0
+rst
 $EndSCHEMATC
