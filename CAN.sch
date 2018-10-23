@@ -83,8 +83,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 2500 8550 2500
 Wire Wire Line
-	8650 2700 8550 2700
-Wire Wire Line
 	7400 1950 7400 2050
 $Comp
 L Device:C C4
@@ -178,17 +176,6 @@ Wire Wire Line
 Connection ~ 8550 2500
 Wire Wire Line
 	8550 2500 8650 2500
-Wire Wire Line
-	10000 2700 9600 2700
-Wire Wire Line
-	9600 2700 9600 2650
-Wire Wire Line
-	9600 2650 8550 2650
-Wire Wire Line
-	8550 2650 8550 2700
-Connection ~ 8550 2700
-Wire Wire Line
-	8550 2700 7900 2700
 $Comp
 L power:+3.3V #PWR011
 U 1 1 5BBCB5BE
@@ -295,37 +282,32 @@ Text HLabel 4200 2700 0    50   Input ~ 0
 SCK
 Text HLabel 5400 3000 2    50   Input ~ 0
 ~INT
-Text HLabel 5750 3600 2    50   Input ~ 0
+Text HLabel 6450 3600 2    50   Input ~ 0
 global_rst
 $Comp
 L Device:R R3
 U 1 1 5BBDDC3F
-P 5550 3850
-F 0 "R3" H 5620 3896 50  0000 L CNN
-F 1 "R" H 5620 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5480 3850 50  0001 C CNN
-F 3 "~" H 5550 3850 50  0001 C CNN
-	1    5550 3850
+P 6000 3850
+F 0 "R3" H 6070 3896 50  0000 L CNN
+F 1 "R" H 6070 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 3850 50  0001 C CNN
+F 3 "~" H 6000 3850 50  0001 C CNN
+	1    6000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR014
 U 1 1 5BBDDD13
-P 5550 4000
-F 0 "#PWR014" H 5550 3850 50  0001 C CNN
-F 1 "+3.3V" H 5565 4173 50  0000 C CNN
-F 2 "" H 5550 4000 50  0001 C CNN
-F 3 "" H 5550 4000 50  0001 C CNN
-	1    5550 4000
+P 6000 4000
+F 0 "#PWR014" H 6000 3850 50  0001 C CNN
+F 1 "+3.3V" H 6015 4173 50  0000 C CNN
+F 2 "" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5400 3600 5550 3600
-Wire Wire Line
-	5550 3700 5550 3600
-Connection ~ 5550 3600
-Wire Wire Line
-	5550 3600 5750 3600
 Wire Wire Line
 	6900 2500 6750 2500
 Wire Wire Line
@@ -366,11 +348,11 @@ F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 10700 2600 50  0001 C CNN
 	1    10400 2600
 	1    0    0    -1  
 $EndComp
-Text Label 5650 3600 0    50   ~ 0
+Text Label 6350 3600 0    50   ~ 0
 rst
-Text Label 10000 2600 2    50   ~ 0
+Text Label 10000 2700 2    50   ~ 0
 rst
-Text Label 8650 2600 2    50   ~ 0
+Text Label 8650 2700 2    50   ~ 0
 rst
 $Comp
 L Interface_CAN_LIN:TCAN332 U2
@@ -406,4 +388,61 @@ F 3 "" H 7400 1950 50  0001 C CNN
 	1    7400 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 2700 8350 2700
+Wire Wire Line
+	8350 2700 8350 2600
+Wire Wire Line
+	8350 2600 8650 2600
+Wire Wire Line
+	10000 2600 9550 2600
+Wire Wire Line
+	9550 2600 9550 3400
+Wire Wire Line
+	9550 3400 8350 3400
+Wire Wire Line
+	8350 3400 8350 2700
+Connection ~ 8350 2700
+$Comp
+L Device:R R6
+U 1 1 5BD144A3
+P 5700 3600
+F 0 "R6" H 5770 3646 50  0000 L CNN
+F 1 "R" H 5770 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 3600 50  0001 C CNN
+F 3 "~" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5BD14F90
+P 6000 3400
+F 0 "C5" V 5748 3400 50  0000 C CNN
+F 1 "C" V 5839 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6038 3250 50  0001 C CNN
+F 3 "~" H 6000 3400 50  0001 C CNN
+	1    6000 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5BD15022
+P 6000 3250
+F 0 "#PWR016" H 6000 3000 50  0001 C CNN
+F 1 "GND" V 6005 3122 50  0000 R CNN
+F 2 "" H 6000 3250 50  0001 C CNN
+F 3 "" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3550 6000 3600
+Wire Wire Line
+	5850 3600 6000 3600
+Connection ~ 6000 3600
+Wire Wire Line
+	6000 3600 6450 3600
+Wire Wire Line
+	6000 3700 6000 3600
 $EndSCHEMATC
