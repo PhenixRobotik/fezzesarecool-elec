@@ -382,13 +382,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5BCEB54A
-P 1700 3450
-F 0 "J2" V 1573 3262 50  0000 R CNN
-F 1 "Conn_start" V 1664 3262 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1700 3450 50  0001 C CNN
-F 3 "~" H 1700 3450 50  0001 C CNN
-	1    1700 3450
-	0    -1   1    0   
+P 1800 3450
+F 0 "J2" V 1673 3262 50  0000 R CNN
+F 1 "Conn_start" V 1764 3262 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 1800 3450 50  0001 C CNN
+F 3 "~" H 1800 3450 50  0001 C CNN
+	1    1800 3450
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -427,19 +427,16 @@ Wire Wire Line
 	1600 3200 1700 3200
 Wire Wire Line
 	1700 3200 1700 3250
-Wire Wire Line
-	1700 2700 1700 3200
-Connection ~ 1700 3200
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BCF5822
-P 550 2400
-F 0 "J1" H 470 2617 50  0000 C CNN
-F 1 "Conn_sel" H 470 2526 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 550 2400 50  0001 C CNN
-F 3 "~" H 550 2400 50  0001 C CNN
-	1    550  2400
-	-1   0    0    -1  
+P 550 2500
+F 0 "J1" H 470 2717 50  0000 C CNN
+F 1 "Conn_sel" H 470 2626 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 550 2500 50  0001 C CNN
+F 3 "~" H 550 2500 50  0001 C CNN
+	1    550  2500
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -478,9 +475,6 @@ Wire Wire Line
 	800  2300 800  2400
 Wire Wire Line
 	800  2400 750  2400
-Connection ~ 800  2400
-Wire Wire Line
-	800  2400 2850 2400
 Wire Wire Line
 	7700 2450 7900 2450
 Wire Wire Line
@@ -587,4 +581,36 @@ F 3 "~" H 9900 4200 50  0001 C CNN
 	1    9900 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R4
+U 1 1 5BD02F39
+P 1200 2400
+F 0 "R4" V 993 2400 50  0000 C CNN
+F 1 "R" V 1084 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1130 2400 50  0001 C CNN
+F 3 "~" H 1200 2400 50  0001 C CNN
+	1    1200 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 2400 800  2400
+Connection ~ 800  2400
+Wire Wire Line
+	1350 2400 2850 2400
+$Comp
+L Device:R R5
+U 1 1 5BD0A53A
+P 1700 2950
+F 0 "R5" H 1630 2904 50  0000 R CNN
+F 1 "R" H 1630 2995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 2950 50  0001 C CNN
+F 3 "~" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2800 1700 2700
+Wire Wire Line
+	1700 3100 1700 3200
+Connection ~ 1700 3200
 $EndSCHEMATC
