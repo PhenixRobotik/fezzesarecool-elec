@@ -48,7 +48,7 @@ F 3 "" H 5700 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PhoenixRobotik:NMOS-T252 Q1
+L PhenixRobotik:NMOS-T252 Q1
 U 1 1 5BBBFFF5
 P 5600 3550
 F 0 "Q1" H 5805 3596 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 5600 3550 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PhoenixRobotik:NMOS-T252 Q2
+L PhenixRobotik:NMOS-T252 Q2
 U 1 1 5BBC0054
 P 5600 4400
 F 0 "Q2" H 5805 4446 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 5600 4400 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PhoenixRobotik:NMOS-T252 Q3
+L PhenixRobotik:NMOS-T252 Q3
 U 1 1 5BBC008A
 P 5600 5150
 F 0 "Q3" H 5805 5196 50  0000 L CNN

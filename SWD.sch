@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PhoenixRobotik:SN74AHC1G08 U3
+L PhenixRobotik:SN74AHC1G08 U3
 U 1 1 5BCA5D5A
 P 5650 3250
 F 0 "U3" H 5675 3625 50  0000 C CNN

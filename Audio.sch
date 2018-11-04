@@ -70,7 +70,7 @@ F 3 "" H 3200 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PhoenixRobotik:LM4991 U13
+L PhenixRobotik:LM4991 U13
 U 1 1 5BC4F3E1
 P 5900 3150
 F 0 "U13" H 5775 3675 50  0000 C CNN

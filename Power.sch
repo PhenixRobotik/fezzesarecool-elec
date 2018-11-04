@@ -44,7 +44,7 @@ U 1 1 5BCD180A
 P 5050 2900
 F 0 "J18" H 5129 2892 50  0000 L CNN
 F 1 "alim_jacky" H 5129 2801 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal" H 5050 2900 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5050 2900 50  0001 C CNN
 F 3 "~" H 5050 2900 50  0001 C CNN
 	1    5050 2900
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5BCC86D3
 P 5050 4150
 F 0 "J7" H 5129 4142 50  0000 L CNN
 F 1 "alim_5V" H 5129 4051 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal" H 5050 4150 50  0001 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5050 4150 50  0001 C CNN
 F 3 "~" H 5050 4150 50  0001 C CNN
 	1    5050 4150
 	1    0    0    -1  

@@ -327,7 +327,7 @@ Connection ~ 10500 2150
 Wire Wire Line
 	10500 2150 10500 2200
 $Comp
-L PhoenixRobotik:CAN_conn J3
+L PhenixRobotik:CAN_conn J3
 U 1 1 5BCBDF8F
 P 9050 2600
 F 0 "J3" H 9329 2646 50  0000 L CNN
@@ -338,7 +338,7 @@ F 3 "https://github.com/PhenixRobotik/phenix_kicad" H 9350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PhoenixRobotik:CAN_conn J4
+L PhenixRobotik:CAN_conn J4
 U 1 1 5BCBE333
 P 10400 2600
 F 0 "J4" H 10679 2646 50  0000 L CNN
