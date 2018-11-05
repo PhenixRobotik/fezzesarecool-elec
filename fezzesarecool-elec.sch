@@ -482,34 +482,34 @@ Wire Wire Line
 Wire Wire Line
 	7900 3450 7700 3450
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5BC37324
 P 7500 900
-F 0 "#LOGO1" H 7500 1175 50  0001 C CNN
+F 0 "LOGO1" H 7500 1175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 7500 675 50  0001 C CNN
-F 2 "PhoenixRobotik:Logo_12,7mm" H 7500 900 50  0001 C CNN
+F 2 "PhenixRobotik:Logo_8,5mm" H 7500 900 50  0001 C CNN
 F 3 "~" H 7500 900 50  0001 C CNN
 	1    7500 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO2
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 5BC37600
 P 8200 900
-F 0 "#LOGO2" H 8200 1175 50  0001 C CNN
+F 0 "LOGO2" H 8200 1175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 8200 675 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo_11.4x12mm_SilkScreen" H 8200 900 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 8200 900 50  0001 C CNN
 F 3 "~" H 8200 900 50  0001 C CNN
 	1    8200 900 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO3
+L Graphic:Logo_Open_Hardware_Small LOGO3
 U 1 1 5BC37D40
 P 8200 1350
-F 0 "#LOGO3" H 8200 1625 50  0001 C CNN
+F 0 "LOGO3" H 8200 1625 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 8200 1125 50  0001 C CNN
-F 2 "Symbol:KiCad-Logo2_12mm_SilkScreen" H 8200 1350 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_6mm_SilkScreen" H 8200 1350 50  0001 C CNN
 F 3 "~" H 8200 1350 50  0001 C CNN
 	1    8200 1350
 	1    0    0    -1  
@@ -537,50 +537,6 @@ $EndComp
 Connection ~ 2650 1300
 Wire Wire Line
 	2650 1300 2650 1700
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5BC53301
-P 9900 3450
-F 0 "H1" H 10000 3496 50  0000 L CNN
-F 1 "MountingHole" H 10000 3405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3450 50  0001 C CNN
-F 3 "~" H 9900 3450 50  0001 C CNN
-	1    9900 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5BC53337
-P 9900 3700
-F 0 "H2" H 10000 3746 50  0000 L CNN
-F 1 "MountingHole" H 10000 3655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3700 50  0001 C CNN
-F 3 "~" H 9900 3700 50  0001 C CNN
-	1    9900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5BC53361
-P 9900 3950
-F 0 "H3" H 10000 3996 50  0000 L CNN
-F 1 "MountingHole" H 10000 3905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 3950 50  0001 C CNN
-F 3 "~" H 9900 3950 50  0001 C CNN
-	1    9900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5BC53391
-P 9900 4200
-F 0 "H4" H 10000 4246 50  0000 L CNN
-F 1 "MountingHole" H 10000 4155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9900 4200 50  0001 C CNN
-F 3 "~" H 9900 4200 50  0001 C CNN
-	1    9900 4200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R4
 U 1 1 5BD02F39
@@ -613,4 +569,70 @@ Wire Wire Line
 Wire Wire Line
 	1700 3100 1700 3200
 Connection ~ 1700 3200
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5BE0C48B
+P 10000 3300
+F 0 "H1" V 9954 3450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10045 3450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 10000 3300 50  0001 C CNN
+F 3 "~" H 10000 3300 50  0001 C CNN
+	1    10000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5BE0C4F4
+P 10000 3500
+F 0 "H2" V 9954 3650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10045 3650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 10000 3500 50  0001 C CNN
+F 3 "~" H 10000 3500 50  0001 C CNN
+	1    10000 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5BE0C553
+P 10000 3700
+F 0 "H3" V 9954 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10045 3850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 10000 3700 50  0001 C CNN
+F 3 "~" H 10000 3700 50  0001 C CNN
+	1    10000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5BE0C5B6
+P 10000 3900
+F 0 "H4" V 9954 4050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10045 4050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 10000 3900 50  0001 C CNN
+F 3 "~" H 10000 3900 50  0001 C CNN
+	1    10000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 3500 9900 3700
+Connection ~ 9900 3700
+Wire Wire Line
+	9900 3700 9900 3900
+Connection ~ 9900 3900
+Wire Wire Line
+	9900 3900 9900 4100
+$Comp
+L power:GND #PWR0101
+U 1 1 5BE0EDE1
+P 9900 4100
+F 0 "#PWR0101" H 9900 3850 50  0001 C CNN
+F 1 "GND" H 9905 3927 50  0000 C CNN
+F 2 "" H 9900 4100 50  0001 C CNN
+F 3 "" H 9900 4100 50  0001 C CNN
+	1    9900 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 3500
+Wire Wire Line
+	9900 3300 9900 3500
 $EndSCHEMATC
