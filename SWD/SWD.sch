@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -21,7 +20,7 @@ L Device:C C5
 U 1 1 5BC271FF
 P 2550 850
 F 0 "C5" V 2298 850 50  0000 C CNN
-F 1 "C" V 2389 850 50  0000 C CNN
+F 1 "100n" V 2389 850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 700 50  0001 C CNN
 F 3 "~" H 2550 850 50  0001 C CNN
 	1    2550 850 
@@ -168,7 +167,7 @@ nrst
 Wire Wire Line
 	10950 1200 10950 1100
 $Comp
-L PhoenixRobotik:SN74CB3Q3257 U3
+L PhenixRobotik:SN74CB3Q3257 U3
 U 1 1 5BD1262B
 P 2200 1650
 F 0 "U3" V 2204 2088 50  0000 L CNN
@@ -196,7 +195,7 @@ s2
 Text Label 2450 1250 1    50   ~ 0
 ~s2
 $Comp
-L PhoenixRobotik:SN74CB3Q3257 U4
+L PhenixRobotik:SN74CB3Q3257 U4
 U 1 1 5BD74FDC
 P 4450 1650
 F 0 "U4" V 4454 2088 50  0000 L CNN
@@ -237,7 +236,7 @@ L Device:C C6
 U 1 1 5BD7D569
 P 4800 850
 F 0 "C6" V 4548 850 50  0000 C CNN
-F 1 "C" V 4639 850 50  0000 C CNN
+F 1 "100n" V 4639 850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4838 700 50  0001 C CNN
 F 3 "~" H 4800 850 50  0001 C CNN
 	1    4800 850 
@@ -271,7 +270,7 @@ Connection ~ 4800 1100
 Wire Wire Line
 	4800 1100 4800 1250
 $Comp
-L PhoenixRobotik:SN74CB3Q3257 U8
+L PhenixRobotik:SN74CB3Q3257 U8
 U 1 1 5BD80AEC
 P 8950 1600
 F 0 "U8" V 8954 2038 50  0000 L CNN
@@ -282,7 +281,7 @@ F 3 "" H 9250 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PhoenixRobotik:SN74CB3Q3257 U9
+L PhenixRobotik:SN74CB3Q3257 U9
 U 1 1 5BD80C68
 P 11200 1600
 F 0 "U9" V 11204 2038 50  0000 L CNN
@@ -347,7 +346,7 @@ L Device:C C8
 U 1 1 5BDA9E65
 P 9300 800
 F 0 "C8" V 9048 800 50  0000 C CNN
-F 1 "C" V 9139 800 50  0000 C CNN
+F 1 "100n" V 9139 800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9338 650 50  0001 C CNN
 F 3 "~" H 9300 800 50  0001 C CNN
 	1    9300 800 
@@ -385,7 +384,7 @@ L Device:C C9
 U 1 1 5BDADBF0
 P 11550 800
 F 0 "C9" V 11298 800 50  0000 C CNN
-F 1 "C" V 11389 800 50  0000 C CNN
+F 1 "100n" V 11389 800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11588 650 50  0001 C CNN
 F 3 "~" H 11550 800 50  0001 C CNN
 	1    11550 800 
@@ -419,7 +418,7 @@ Connection ~ 11550 1050
 Wire Wire Line
 	11550 1050 11550 1200
 $Comp
-L PhoenixRobotik:SN74LVC1G00 U10
+L PhenixRobotik:SN74LVC1G00 U10
 U 1 1 5BDB6A7A
 P 13600 1200
 F 0 "U10" H 13625 835 50  0000 C CNN
@@ -519,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 850  10950 1100
 $Comp
-L PhoenixRobotik:Conn_Debug J2
+L PhenixRobotik:Conn_Debug J2
 U 1 1 5BCBBCD7
 P 14300 2850
 F 0 "J2" H 14529 2748 50  0000 L CNN
@@ -546,7 +545,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 3250 13850 3250
 $Comp
-L PhoenixRobotik:Conn_Debug J3
+L PhenixRobotik:Conn_Debug J3
 U 1 1 5BCE6190
 P 14950 3800
 F 0 "J3" H 15179 3698 50  0000 L CNN
@@ -586,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 3800 13600 3900
 $Comp
-L PhoenixRobotik:Conn_Debug J9
+L PhenixRobotik:Conn_Debug J9
 U 1 1 5BCFD52D
 P 15650 4700
 F 0 "J9" H 15879 4598 50  0000 L CNN
@@ -636,7 +635,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 4550 13750 4900
 $Comp
-L PhoenixRobotik:Conn_Debug J5
+L PhenixRobotik:Conn_Debug J5
 U 1 1 5BD20381
 P 14350 5700
 F 0 "J5" H 14579 5598 50  0000 L CNN
@@ -678,7 +677,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 5500 13750 5900
 $Comp
-L PhoenixRobotik:Conn_Debug J6
+L PhenixRobotik:Conn_Debug J6
 U 1 1 5BD38353
 P 14950 6650
 F 0 "J6" H 15179 6548 50  0000 L CNN
@@ -722,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 6450 13900 6450
 $Comp
-L PhoenixRobotik:Conn_Debug J8
+L PhenixRobotik:Conn_Debug J8
 U 1 1 5BD516CB
 P 15550 7550
 F 0 "J8" H 15779 7448 50  0000 L CNN
@@ -764,7 +763,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 7400 13750 7750
 $Comp
-L PhoenixRobotik:Conn_Debug J4
+L PhenixRobotik:Conn_Debug J4
 U 1 1 5BD69200
 P 14300 8550
 F 0 "J4" H 14529 8448 50  0000 L CNN
@@ -808,7 +807,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 8350 13750 8750
 $Comp
-L PhoenixRobotik:Conn_Debug J7
+L PhenixRobotik:Conn_Debug J7
 U 1 1 5BD81987
 P 15050 9500
 F 0 "J7" H 15279 9398 50  0000 L CNN
