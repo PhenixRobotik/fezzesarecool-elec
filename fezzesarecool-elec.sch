@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -425,8 +424,6 @@ F 3 "" H 1300 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 3200 1700 3200
-Wire Wire Line
-	1700 3200 1700 3250
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BCF5822
@@ -554,22 +551,6 @@ Connection ~ 800  2400
 Wire Wire Line
 	1350 2400 2850 2400
 $Comp
-L Device:R R5
-U 1 1 5BD0A53A
-P 1700 2950
-F 0 "R5" H 1630 2904 50  0000 R CNN
-F 1 "R" H 1630 2995 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 2950 50  0001 C CNN
-F 3 "~" H 1700 2950 50  0001 C CNN
-	1    1700 2950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1700 2800 1700 2700
-Wire Wire Line
-	1700 3100 1700 3200
-Connection ~ 1700 3200
-$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5BE0C48B
 P 10000 3300
@@ -635,4 +616,22 @@ $EndComp
 Connection ~ 9900 3500
 Wire Wire Line
 	9900 3300 9900 3500
+Wire Wire Line
+	1700 2800 1700 2700
+$Comp
+L Device:R R5
+U 1 1 5BD0A53A
+P 1700 2950
+F 0 "R5" H 1630 2904 50  0000 R CNN
+F 1 "R" H 1630 2995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 2950 50  0001 C CNN
+F 3 "~" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 1700 3200
+Wire Wire Line
+	1700 3100 1700 3200
+Wire Wire Line
+	1700 3200 1700 3250
 $EndSCHEMATC

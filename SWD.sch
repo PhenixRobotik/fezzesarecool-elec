@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:fezzesarecool-elec-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -103,7 +102,7 @@ L Connector_Generic:Conn_01x02 J5
 U 1 1 5BCA6692
 P 5150 1950
 F 0 "J5" V 5116 1762 50  0000 R CNN
-F 1 "Conn_01x02" V 5025 1762 50  0000 R CNN
+F 1 "Reset" V 5025 1762 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5150 1950 50  0001 C CNN
 F 3 "~" H 5150 1950 50  0001 C CNN
 	1    5150 1950
