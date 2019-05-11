@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:fezzesarecool-elec-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,14 +15,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_CAN_LIN:MCP2515-EST U1
-U 1 1 5BBC947F
+L Interface_CAN_LIN:MCP2515-xST U1
+U 0 0 5BBC947F
 P 4800 3000
+AR Path="/5BBC947F" Ref="U1"  Part="1" 
+AR Path="/5BBC939D/5BBC947F" Ref="U1"  Part="0" 
 F 0 "U1" H 4800 3978 50  0000 C CNN
 F 1 "MCP2515-EST" H 4800 3887 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4800 2100 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf" H 4900 2200 50  0001 C CNN
-	1    4800 3000
+	0    4800 3000
 	1    0    0    -1  
 $EndComp
 $Comp
